@@ -1,6 +1,21 @@
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #f4f4f4;
+    --accent-color: steelblue;
+    --card-bg: #eee;
+    --text-color: #333;
+    --main-font: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
 nav {
-    background-color: steelblue;
-    padding: 10pc;
+    background-color: var(--accent-color);
+    padding: 10px;
 }
 
 nav a {
@@ -10,7 +25,7 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: var(--primary-color, var(--accent-color));
 }
 
 main {
@@ -35,8 +50,8 @@ aside {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
-    background-color: #eee;
-    color: #333;
+    background-color: var(--card-bg);
+    color: var(--text-color, #333);
     text-align: center;
 }
 
