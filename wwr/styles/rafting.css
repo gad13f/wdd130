@@ -89,6 +89,14 @@ h1 {
     /*white text - make sure there is enough contrast with the background-color*/
 }
 
+article {
+    position: absolute;
+    top: 150px;
+    width: 95%;
+    background-color: var(--primary-color);
+
+}
+
 .hero article img {
     float: right;
     width: 125px;
