@@ -116,7 +116,7 @@ h1 {
     vertical-align: middle;
 }
 
-/* Instrucción 4 y 5: Header con Grid y Nav con Flexbox */
+/* Instruction 4 and 5: Header with Grid and Nav with Flexbox */
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -129,7 +129,7 @@ nav {
     gap: 20px;
 }
 
-/* Instrucción 7: Estilo para la sección History */
+/* Instruction 7: Style for the History section */
 .history-content {
     display: flex;
     align-items: center;
@@ -152,7 +152,7 @@ nav {
     border-radius: 4px;
 }
 
-/* Instrucción 8: Estilo para la sección Adventure Awaits You (5 imágenes) */
+/* Instruction 8: Style for the Adventure Awaits You section (5 imágenes) */
 .adventure-grid {
     display: flex;
     justify-content: space-between;
@@ -179,7 +179,7 @@ nav {
     margin-top: 5px;
 }
 
-/* Instrucción 9: Footer alineado a la derecha */
+/* Instruction 9: Right-aligned footer */
 footer {
     display: flex;
     justify-content: flex-end;
