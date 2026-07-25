@@ -12,7 +12,7 @@
 }
 
 header {
-    background-color: var(white);
+    background-color: white;
     color: var(--accent2-color);
 }
 
@@ -25,7 +25,7 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inside;
+    display: block;
     padding: 0 15px;
 }
 
@@ -115,4 +115,76 @@ article {
     object-fit: contain;
     display: inline-block;
     vertical-align: middle;
+}
+
+/* Instrucción 4 y 5: Header con Grid y Nav con Flexbox */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+/* Instrucción 7: Estilo para la sección History */
+.history-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.history-content p {
+    flex: 1;
+}
+
+.history-content figure {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.history-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Instrucción 8: Estilo para la sección Adventure Awaits You (5 imágenes) */
+.adventure-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.adventure-grid figure {
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+    margin: 0;
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.adventure-grid figcaption {
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+/* Instrucción 9: Footer alineado a la derecha */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
