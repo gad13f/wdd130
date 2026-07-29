@@ -15,7 +15,7 @@ td {
 
 thead th,
 tfoot tr {
-    background-color: #000;
+    background-color: red;
     color: #fff;
     font-weight: 700;
 }
