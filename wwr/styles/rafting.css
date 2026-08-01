@@ -38,6 +38,14 @@ header nav ul li a:hover {
     font-weight: 500;
 }
 
+h1 {
+    text-align: center;
+}
+
+inframe {
+    border: 0;
+}
+
 .contact-main-container {
     display: flex;
     flex-wrap: wrap;
