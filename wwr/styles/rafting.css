@@ -341,7 +341,8 @@ main img {
     width: 1200px;
     height: 500px;
     object-fit: cover;
-    display: block: border-radius: 8px;
+    display: block;
+    border-radius: 8px;
 }
 
 /* ==========================================
